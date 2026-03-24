@@ -1,0 +1,73 @@
+/* corpus */
+body{
+    background-color: #efefef;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: white;
+}
+div{
+    background-color: rgb(213, 200, 148);
+    border: 2px solid white;
+    margin: auto;
+    width: 80%; 
+}
+
+
+
+/* sections-généralités */
+section{
+    width: 80%;
+    margin: 15px auto;
+    text-align: center;
+    padding: 25px;
+
+}
+main>section:nth-child(odd){
+    background-color: rgb(132, 114, 12);
+    border: 2px solid #efefef;
+    color: white;
+}
+main>section:nth-child(even){
+    background-color: #efefef;
+    color: rgb(132, 114, 12);
+    }
+p{
+    padding: 15px;
+}
+li{
+    padding: 10px 0px;
+}
+
+/* titres */
+h1{
+    font-family: "Lobster", sans-serif;
+    font-size: 70px;
+    text-align: center;
+    color: white;
+}
+section>h2{    
+    font-size: 40px;
+    font-weight: bolder;
+    font-family:"Lobster", sans-serif;
+    padding: 15px; 
+    text-decoration: underline;      
+}
+
+/* id= image */
+img{
+    width: 80%;
+    margin: auto;
+}
+
+/*id= liste ingredients  */
+#listeIngredients{
+    list-style-type: none;
+    padding: 15px;    
+}
+
+/* id= processus */
+#processus{
+    list-style-position: inside;
+    padding-left: 0; 
+    
+}
